@@ -1,0 +1,5 @@
+﻿  Janus.vcxproj -> C:\Users\William\documents\visual studio 2013\Projects\Janus\x64\Release\Janus.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "C:\Users\William\documents\visual studio 2013\Projects\Janus\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+          2 file(s) copied.

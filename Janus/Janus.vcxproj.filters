@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="utility.cu">
+      <Filter>cuda source files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="janus.cpp">
+      <Filter>source files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="box.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.cuh">
+      <Filter>cuda header files</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header files">
+      <UniqueIdentifier>{1af1864c-21a0-448d-9828-e2c5893d29b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{c05fa313-7d2a-40bf-aecc-94c516de2370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda source files">
+      <UniqueIdentifier>{a2817fdd-94b6-47ce-8d73-7473dcb9345f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda header files">
+      <UniqueIdentifier>{19ee55fd-236b-412b-9a58-3a136b2bdaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="output files">
+      <UniqueIdentifier>{ffb491d0-7fc9-4bbe-9160-dc722936ee2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="box.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt">
+      <Filter>output files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
